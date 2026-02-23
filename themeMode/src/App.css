@@ -1,0 +1,23 @@
+/* base */
+.app-root {
+  min-height: 100vh;
+}
+
+/* light mode */
+.app-root.light {
+  background-color: #ffffff;
+  color: #111827;
+}
+
+/* dark mode */
+.app-root.dark {
+  background-color: #020617; /* near-black */
+  color: #e5e7eb; /* light gray text */
+}
+
+/* navbar can still use theme too, but not required */
+.navbar {
+  display: flex;
+  gap: 1rem;
+  padding: 0.75rem 1.5rem;
+}
